@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7fcbff7c-bbad-4a25-a49f-9a2dad742e35" name="Default Changelist" comment="" />
+    <list default="true" id="7fcbff7c-bbad-4a25-a49f-9a2dad742e35" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/test_001_dl.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_001_dl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/test_002.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_002.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestData/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestData/zh_001.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/basepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/basepage.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,13 +19,76 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestCase/test_002.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="62" column="37" lean-forward="true" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#4#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/PYTHON/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="615" column="8" selection-start-line="615" selection-start-column="8" selection-end-line="615" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestCase/test_001_dl.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-655">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="379">
+              <caret line="33" column="23" lean-forward="true" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestCase/conftest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1159">
+              <caret line="67" column="17" lean-forward="true" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/connect_mysql.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="51" column="14" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/loginpage_locators.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-494">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/common/basepage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="120" selection-start-line="120" selection-end-line="120" />
+              <folding>
+                <element signature="e#1#72#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -31,14 +103,20 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/TestData/zh_001.py" />
+        <option value="$PROJECT_DIR$/TestData/zh_002.py" />
+        <option value="$PROJECT_DIR$/TestData/t1.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_001_dl.py" />
+        <option value="$PROJECT_DIR$/TestCase/conftest.py" />
+        <option value="$PROJECT_DIR$/reports/t1.py" />
         <option value="$PROJECT_DIR$/TestCase/test_002.py" />
         <option value="$PROJECT_DIR$/common/basepage.py" />
-        <option value="$PROJECT_DIR$/TestData/zh_001.py" />
-        <option value="$PROJECT_DIR$/TestCase/conftest.py" />
-        <option value="$PROJECT_DIR$/TestCase/test_001_dl.py" />
       </list>
     </option>
   </component>
@@ -48,6 +126,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -76,11 +155,6 @@
               <item name="ycgs_selenium" type="462c0819:PsiDirectoryNode" />
               <item name="TestCase" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ycgs_selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ycgs_selenium" type="462c0819:PsiDirectoryNode" />
-              <item name="TestData" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -88,12 +162,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../python16" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="D:/web_2020_03" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\PYcharm\ycgs_selenium\common" />
       <recent name="D:\PYcharm\ycgs_selenium\TestData" />
+      <recent name="D:\PYcharm\ycgs_selenium\common" />
       <recent name="D:\PYcharm\ycgs_selenium\TestCase" />
     </key>
   </component>
@@ -109,8 +184,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_001_dl.py">
-    <configuration name="pytest for test_001_dl.Test_dl_denglushouye" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest for test_002.Test_xtsz_qqbpz.test_xtsz_qqbpz_002">
+    <configuration name="t1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ycgs_selenium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/reports" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/reports/t1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_001_dl.Test_login.test_login_eeror1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="ycgs_selenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -121,11 +217,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_001_dl.Test_dl_denglushouye&quot;" />
+      <option name="_new_target" value="&quot;test_001_dl.Test_login.test_login_eeror1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_001_dl.Test_login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_002.Test_xtsz_qqbpz.test_xtsz_qqbpz_001" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="ycgs_selenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -136,11 +232,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_001_dl.Test_login&quot;" />
+      <option name="_new_target" value="&quot;test_002.Test_xtsz_qqbpz.test_xtsz_qqbpz_001&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_001_dl.Test_login.test_login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_002.Test_xtsz_qqbpz.test_xtsz_qqbpz_002" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="ycgs_selenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -151,22 +247,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_001_dl.Test_login.test_login&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_001_dl.Test_login.test_login_correct" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="ycgs_selenium" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_001_dl.Test_login.test_login_correct&quot;" />
+      <option name="_new_target" value="&quot;test_002.Test_xtsz_qqbpz.test_xtsz_qqbpz_002&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -187,11 +268,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_002.Test_xtsz_qqbpz.test_xtsz_qqbpz_002" />
+        <item itemvalue="Python.t1" />
+        <item itemvalue="Python tests.pytest for test_002.Test_xtsz_qqbpz.test_xtsz_qqbpz_001" />
+        <item itemvalue="Python tests.pytest for test_001_dl.Test_login.test_login_eeror1" />
         <item itemvalue="Python tests.pytest in test_001_dl.py" />
-        <item itemvalue="Python tests.pytest for test_001_dl.Test_login.test_login_correct" />
-        <item itemvalue="Python tests.pytest for test_001_dl.Test_login" />
-        <item itemvalue="Python tests.pytest for test_001_dl.Test_login.test_login" />
-        <item itemvalue="Python tests.pytest for test_001_dl.Test_dl_denglushouye" />
       </list>
     </recent_temporary>
   </component>
@@ -209,39 +290,48 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_001_dl_Test_login_test_login_correct - 2021.02.24 at 16h 25m 19s.xml">
-      <configuration name="pytest for test_001_dl.Test_login.test_login_correct" configurationId="tests" />
+    <history-entry file="pytest_for_test_002_Test_xtsz_qqbpz_test_xtsz_qqbpz_002 - 2021.02.26 at 16h 40m 55s.xml">
+      <configuration name="pytest for test_002.Test_xtsz_qqbpz.test_xtsz_qqbpz_002" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_001_dl_py - 2021.02.24 at 16h 25m 51s.xml">
-      <configuration name="pytest in test_001_dl.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_002_Test_xtsz_qqbpz_test_xtsz_qqbpz_002 - 2021.02.26 at 16h 41m 35s.xml">
+      <configuration name="pytest for test_002.Test_xtsz_qqbpz.test_xtsz_qqbpz_002" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_001_dl_py - 2021.02.24 at 16h 28m 16s.xml">
-      <configuration name="pytest in test_001_dl.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_002_Test_xtsz_qqbpz_test_xtsz_qqbpz_002 - 2021.02.26 at 16h 41m 39s.xml">
+      <configuration name="pytest for test_002.Test_xtsz_qqbpz.test_xtsz_qqbpz_002" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_001_dl_py - 2021.02.24 at 16h 29m 59s.xml">
-      <configuration name="pytest in test_001_dl.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_002_Test_xtsz_qqbpz_test_xtsz_qqbpz_002 - 2021.02.26 at 16h 42m 06s.xml">
+      <configuration name="pytest for test_002.Test_xtsz_qqbpz.test_xtsz_qqbpz_002" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_001_dl_py - 2021.02.24 at 16h 30m 22s.xml">
-      <configuration name="pytest in test_001_dl.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_002_Test_xtsz_qqbpz_test_xtsz_qqbpz_002 - 2021.02.26 at 16h 57m 41s.xml">
+      <configuration name="pytest for test_002.Test_xtsz_qqbpz.test_xtsz_qqbpz_002" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_001_dl_py - 2021.02.24 at 16h 31m 07s.xml">
-      <configuration name="pytest in test_001_dl.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_002_Test_xtsz_qqbpz_test_xtsz_qqbpz_002 - 2021.02.26 at 16h 58m 39s.xml">
+      <configuration name="pytest for test_002.Test_xtsz_qqbpz.test_xtsz_qqbpz_002" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_001_dl_py - 2021.02.24 at 16h 31m 41s.xml">
-      <configuration name="pytest in test_001_dl.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_002_Test_xtsz_qqbpz_test_xtsz_qqbpz_002 - 2021.02.26 at 17h 36m 33s.xml">
+      <configuration name="pytest for test_002.Test_xtsz_qqbpz.test_xtsz_qqbpz_002" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_001_dl_py - 2021.02.24 at 16h 32m 15s.xml">
-      <configuration name="pytest in test_001_dl.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_002_Test_xtsz_qqbpz_test_xtsz_qqbpz_002 - 2021.02.26 at 17h 37m 13s.xml">
+      <configuration name="pytest for test_002.Test_xtsz_qqbpz.test_xtsz_qqbpz_002" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_001_dl_py - 2021.02.24 at 16h 32m 49s.xml">
-      <configuration name="pytest in test_001_dl.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_002_Test_xtsz_qqbpz_test_xtsz_qqbpz_002 - 2021.03.01 at 09h 17m 22s.xml">
+      <configuration name="pytest for test_002.Test_xtsz_qqbpz.test_xtsz_qqbpz_002" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_001_dl_py - 2021.02.24 at 16h 33m 17s.xml">
-      <configuration name="pytest in test_001_dl.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_002_Test_xtsz_qqbpz_test_xtsz_qqbpz_002 - 2021.03.01 at 09h 38m 06s.xml">
+      <configuration name="pytest for test_002.Test_xtsz_qqbpz.test_xtsz_qqbpz_002" configurationId="tests" />
     </history-entry>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
@@ -249,15 +339,15 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42036837" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35900217" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -272,65 +362,123 @@
     <entry file="file://$PROJECT_DIR$/TestData/conftest.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestData/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/basepage1.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/connect_mysql.py">
+    <entry file="file://D:/PYTHON/Lib/site-packages/_pytest/fixtures.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="51" column="14" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
+        <state relative-caret-position="479">
+          <caret line="1105" column="43" selection-start-line="1105" selection-start-column="36" selection-end-line="1105" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/test_002.py">
+    <entry file="file://$PROJECT_DIR$/TestData/zh_001.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="e#2#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestData/t1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestData/zh_002.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#2#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestData/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/basepage.py">
+    <entry file="file://D:/PYTHON/Lib/site-packages/selenium/webdriver/support/event_firing_webdriver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="79" column="8" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
+        <state relative-caret-position="199">
+          <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/PYTHON/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="615" column="8" selection-start-line="615" selection-start-column="8" selection-end-line="615" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1159">
+          <caret line="67" column="17" lean-forward="true" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
           <folding>
-            <element signature="e#1#72#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/loginpage_locators.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="16" column="57" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="57" />
+        <state relative-caret-position="-494">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestData/zh_001.py">
+    <entry file="file://$PROJECT_DIR$/common/connect_mysql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="40" column="25" lean-forward="true" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
-          <folding>
-            <element signature="e#1#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="19">
+          <caret line="51" column="14" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestCase/test_001_dl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-655">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="379">
+          <caret line="33" column="23" lean-forward="true" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_002.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="62" column="37" lean-forward="true" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#4#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reports/t1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/basepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="120" selection-start-line="120" selection-end-line="120" />
+          <folding>
+            <element signature="e#1#72#0" expanded="true" />
           </folding>
         </state>
       </provider>

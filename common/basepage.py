@@ -10,7 +10,6 @@ from selenium.common.exceptions import ElementNotVisibleException
 
 
 
-
 class LocatorTypeError(Exception):
     '''
     参数类型错误
@@ -26,14 +25,14 @@ class ElementNotFound(Exception):
 
 
 class Base:
-    def __init__(self,driver, timeout=10, t=0.5):
+    def __init__(self,driver ,timeout=10, t=0.5):
         self.driver=driver
         self.timeout = timeout
         self.t = t
 
     def find(self, locator):
         """定位到元素，返回元素对象，没定位到，Timeout异常
-       WebDriverWait里面有三个参数
+        WebDriverWait里面有三个参数
         第一个是：driver:浏览器驱动
         第二个是：timeout:最长超时时间默认以秒为单位
         第三个是：poll_frequency：检测的间隔步长，默认为0.5s"""
@@ -89,55 +88,51 @@ class Base:
             return ""
 
 
-    def clear_elment_text(self,loc):
+    def move_to_element(self, locator):
+        """鼠标悬停操作"""
+        if not isinstance(locator, tuple):
+            raise LocatorTypeError("参数类型错误，locator必须是元祖类型：loc = ('id','value1')")
+        ele = self.find(locator)
+        ActionChains(self.driver).move_to_element(ele).perform()
+
+    def clear_elment_text(self,locator):
         '''
         清除文本
-        :param loc:定位的元素
+        :param locator:定位的元素
         :return:
         '''
-        self.driver.find_element(loc).send_keys(Keys.BACK_SPACE * 20)
+        self.find(locator).send_keys(Keys.BACK_SPACE * 20)
+
+    # def js_focus_element(self, locator):
+    #     """聚焦元素"""
+    #     if not isinstance(locator, tuple):
+    #         raise LocatorTypeError("参数类型错误，locator必须是元祖类型：loc = ('id','value1')")
+    #     target = self.find(locator)
+    #     self.driver.execute_script("arguments[0].scrollIntoView();", target)
+
+    def js_focus_element(self, locator):
+        """聚焦元素"""
+        self.driver.execute_script("arguments[0].scrollIntoView(false);",locator)
 
 
 
 
-    def roll_current_page(self,loc,sy):
-      '''
-      滚动到当前页面(聚焦元素)
-      elements(loc)[-1]  意思是 定位到这个列表  这个列表具体哪一条
-      :param loc:定位的元素
-      :param sy:索引
-      :return:
-      '''
-      self.driver.execute_script("arguments[0].scrollIntoView(false);",self.driver.find_elements(loc)[sy])
 
-
-    def mouse_suspension(self,loc):
-        '''
-        鼠标悬浮
-        :param loc:定位的元素
-        :return:
-        '''
-        ActionChains(self.driver).move_to_element(self.driver.find_element(loc)).perform()
-
-    def get_text_elements(self,loc,sy):
-        '''
-        复数定位点击事件
-         获取复数定位，然后定位到具体值上面
-        :param loc:定位的元素
-        :param sy:索引
-        :return:
-        '''
-        self.driver.find_elements(loc)[sy].click()
 
     def js_scroll_top(self):
         """滚动到顶部"""
         js = "window.scrollTo(0,0)"
         self.driver.execute_script(js)
 
-    def js_scroll_end(self, x=0):
+    def js_scroll_end(self):
         """滚动到底部"""
-        js = "window.scrollTo(%s, document.body.scrollHeight)" % x
+        js = "window.scrollTo(0,document.body.scrollHeight)"
         self.driver.execute_script(js)
+
+
+
+
+
 
 
 
