@@ -1,0 +1,12 @@
+
+
+
+#他是运行pytest 指定测试报告存放路径
+pytest --alluredir ./reports/allure_raw
+
+
+#运行报告
+allure serve reports/allure_raw
+
+
+
